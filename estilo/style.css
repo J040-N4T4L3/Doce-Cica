@@ -41,7 +41,15 @@ header {
 	height: 200px;
 	display: flex;
 	
+}
+.headerProd{
+	justify-content: center;
+}
 
+.logoProd{
+	background-color: rgb(245, 104, 104) ;
+	border-radius: 100%;
+	
 }
 
 .logo {
@@ -51,6 +59,7 @@ header {
 	background-color: rgb(245, 104, 104);
 	border-radius: 100%;
 }
+
 
 
 .banner {
@@ -75,7 +84,7 @@ header {
 
 .principal {
 	padding: 3em 0;
-	background: #FEFEFE;
+	background: #b5eeff;
 	width: 940px;
 	margin: 0 auto;
 	font-size: 20px;
@@ -100,7 +109,16 @@ footer {
 	background-color:#de3535 ;
 }
 
+footer img{
+	background-color:  rgb(245, 104, 104);
+	border-radius: 100%;
+}
+main{
+	background-color: #b5eeff;
+}
 
+/*
+====================================================================================*/
 
 
 
@@ -110,12 +128,14 @@ footer {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+	
 }
 
 .produtos li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
+	height: 450px;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 30px 20px;
@@ -125,7 +145,7 @@ footer {
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+	border-color: #de3535;
 }
 
 .produtos li:active {
