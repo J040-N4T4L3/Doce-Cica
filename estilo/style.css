@@ -1,8 +1,38 @@
+/*Responsividade*/
+body{
+	
+}
+
+header{
+	max-width: 1300px;
+	min-width: 500px;
+	margin:auto;
+}
+div.menu{
+	max-width: 1300px;
+	min-width: 500px;
+	margin: auto;
+}
+main{
+	max-width: 1300px;
+	margin: 500px;
+}
+footer{
+	max-width: 1300px;
+	margin: 500px;
+}
+
+
+
+
 h1.marca{
 	font-size: 150px;
 	display: flex;
 	align-items: center;
 	color: white;
+	margin-right: auto;
+	margin-left: 50px;
+	
 	
 }
 
@@ -42,12 +72,13 @@ nav a:hover {
 
 }
 
-/* css da página inicial */
+
 header {
 	background: #de3535;
 	padding: 20px;
 	height: 200px;
 	display: flex;
+	justify-content: space-between;
 	
 }
 .headerProd{
@@ -70,7 +101,7 @@ header {
 
 
 
-.banner {
+/*.banner {
 	display: block;
 	margin-left: auto;
 	margin-right: 100px;
@@ -80,7 +111,7 @@ header {
 	border-radius:  10px;
 	
 	
-}
+}*/
 
 
 .titulo-principal {
@@ -93,7 +124,7 @@ header {
 .principal {
 	padding: 3em 0;
 	background: #b5eeff;
-	width: 940px;
+	width: 80%;
 	margin: 0 auto;
 	font-size: 20px;
 }
@@ -125,15 +156,9 @@ main{
 	background-color: #b5eeff;
 }
 
-/*
-====================================================================================*/
-
-
-
-
 
 .produtos {
-	width: 1000px;
+	width: 80%;
 	margin: 0 auto;
 	padding: 20px 5px 20px 5px;
 	
@@ -191,8 +216,20 @@ main{
 }
 
 
+/*
+====================================================================================*/
 
-form {
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+
+
+
+
+/*form {
 	margin: 40px 0;
 }
 
@@ -251,11 +288,7 @@ td, th {
 
 
 
-.utensilios {
-	width: 120px;
-	float: left;
-	margin: 0 20px 20px 0;
-}
+
 
 .mapa {
 	padding: 3em 0;
@@ -332,4 +365,4 @@ td, th {
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
-}
+}*/
