@@ -1,3 +1,16 @@
+header {
+	background: #de3535;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 200px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.headerProd{
+	justify-content: center;
+}
 
 h1.marca{
 	font-size: 150px;
@@ -10,9 +23,18 @@ h1.marca{
 	
 }
 
-body {
-	font-family: 'Montserrat', sans-serif;
-	width: 1200px;
+.logoProd{
+	background-color: rgb(245, 104, 104) ;
+	border-radius: 100%;
+	
+}
+
+.logo {
+	display: block;
+	margin-left: 100px;
+	margin-right: auto;
+	background-color: rgb(245, 104, 104);
+	border-radius: 100%;
 }
 
 .menu{
@@ -48,49 +70,10 @@ nav a:hover {
 
 }
 
-
-header {
-	background: #de3535;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	height: 200px;
+body {
+	font-family: 'Montserrat', sans-serif;
 	width: 1200px;
-	display: flex;
-	justify-content: space-between;
-	
 }
-.headerProd{
-	justify-content: center;
-}
-
-.logoProd{
-	background-color: rgb(245, 104, 104) ;
-	border-radius: 100%;
-	
-}
-
-.logo {
-	display: block;
-	margin-left: 100px;
-	margin-right: auto;
-	background-color: rgb(245, 104, 104);
-	border-radius: 100%;
-}
-
-
-
-/*.banner {
-	display: block;
-	margin-left: auto;
-	margin-right: 100px;
-	width:50%;
-	height: 200px;
-	border: 1px solid black;
-	border-radius:  10px;
-	
-	
-}*/
-
 
 .titulo-principal {
 	text-align: center;
@@ -104,11 +87,12 @@ header {
 	background: #b5eeff;
 	width: 80%;
 	margin: 0 auto;
-	font-size: 20px;
+	
 }
 
 .principal p {
 	margin: 0 0 1em;
+	font-size: 20px;
 }
 
 .principal strong {
@@ -133,6 +117,49 @@ footer img{
 main{
 	background-color: #b5eeff;
 }
+
+
+@media (min-width: 2000px) {
+	header{
+		width: 1600px;
+	}
+	.menu{
+		height: 50px;
+		width: 1600px;
+	}
+	nav{
+		width: 25%;
+	}
+	nav a{
+		font-size: 35px;
+	}
+	body{
+		width: 1600px;
+	}
+	
+}
+
+
+
+
+
+
+/*.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: 100px;
+	width:50%;
+	height: 200px;
+	border: 1px solid black;
+	border-radius:  10px;
+	
+	
+}*/
+
+
+
+
+
 
 
 .produtos {
