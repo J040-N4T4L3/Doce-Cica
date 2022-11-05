@@ -1,19 +1,24 @@
+html{
+	font-size: 62.5%;/*A cada 1 rem sera considerado 10px*/
+}
+
 header {
 	background: #de3535;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	height: 200px;
-	width: 1200px;
+	width: 100%;
+	max-width: 980px;
 	display: flex;
 	justify-content: space-between;
 	
 }
-.headerProd{
+/*.headerProd{
 	justify-content: center;
-}
+}*/
 
 h1.marca{
-	font-size: 150px;
+	font-size: 10rem;
 	display: flex;
 	align-items: center;
 	color: white;
@@ -23,11 +28,11 @@ h1.marca{
 	
 }
 
-.logoProd{
+/*.logoProd{
 	background-color: rgb(245, 104, 104) ;
 	border-radius: 100%;
 	
-}
+}*/
 
 .logo {
 	display: block;
@@ -40,13 +45,15 @@ h1.marca{
 .menu{
 	background-color: rgb(245, 104, 104);
 	height: 30px;
-	width: 1200px;
+	width: 100%;
+	max-width: 980px;
+	
 	
 }
 
 nav{
 	display: flex;
-	width:20%;
+	width:25%;
 	justify-content: space-between;
 	margin-left: 30px;
 	margin-right: 30px;
@@ -59,7 +66,7 @@ nav a {
 	text-transform: uppercase;
 	color: black;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 2rem;
 	text-decoration: none;
 
 }
@@ -72,18 +79,23 @@ nav a:hover {
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	width: 1200px;
+	width: 100%;
+	max-width: 980px;
+
+}
+body{
+	font-size: 1.6rem;
 }
 
 .titulo-principal {
 	text-align: center;
-	font-size: 200%;
-	margin: 0 0 1em;
+	font-size: 5rem;
+	margin: 0 0 20px;
 	clear: left;
 }
 
 .principal {
-	padding: 3em 0;
+	padding: 3em;
 	background: #b5eeff;
 	width: 80%;
 	margin: 0 auto;
@@ -91,8 +103,8 @@ body {
 }
 
 .principal p {
-	margin: 0 0 1em;
-	font-size: 20px;
+	margin: 0 0 20px;
+	font-size: 2.2rem;
 }
 
 .principal strong {
@@ -108,6 +120,9 @@ footer {
 	background: url("bg.jpg");
 	padding: 40px 0;
 	background-color:#de3535 ;
+	width: 100%;
+	max-width: 980px;
+
 }
 
 footer img{
@@ -116,28 +131,10 @@ footer img{
 }
 main{
 	background-color: #b5eeff;
+	width: 100%;
+	max-width: 980px;
 }
 
-
-@media (min-width: 2000px) {
-	header{
-		width: 1600px;
-	}
-	.menu{
-		height: 50px;
-		width: 1600px;
-	}
-	nav{
-		width: 25%;
-	}
-	nav a{
-		font-size: 35px;
-	}
-	body{
-		width: 1600px;
-	}
-	
-}
 
 
 
@@ -182,6 +179,7 @@ main{
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+	padding: 2rem;
 }
 
 .produtos li:hover {
@@ -194,20 +192,20 @@ main{
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 3rem;
 }
 
 .produtos h2 {
-	font-size: 30px;
+	font-size: 2.45rem;
 	font-weight: bold;
 }
 
 .produto-descricao {
-	font-size: 18px;
+	font-size: 2rem;
 }
 
 .produto-preco {
-	font-size: 22px;
+	font-size: 2.1rem;
 	font-weight: bold;
 	margin-top: 10px;
 }
@@ -216,8 +214,14 @@ main{
 
 .copyright {
 	color: #FFFFFF;
-	font-size: 13px;
+	font-size: 0.96rem;
 	margin: 20px 0 0;
+}
+
+@media (max-width: 768px) {
+	html{
+		font-size: 50%;
+	}
 }
 
 
