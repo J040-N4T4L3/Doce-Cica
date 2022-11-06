@@ -1,5 +1,6 @@
 html{
 	font-size: 62.5%;/*A cada 1 rem sera considerado 10px*/
+	width: 100%;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
 	padding-bottom: 20px;
 	height: 200px;
 	width: 100%;
-	max-width: 980px;
+	
 	display: flex;
 	justify-content: space-between;
 	
@@ -50,7 +51,7 @@ h1.marca{
 	background-color: rgb(245, 104, 104);
 	height: 30px;
 	width: 100%;
-	max-width: 980px;
+	
 	
 	
 }
@@ -84,7 +85,7 @@ nav a:hover {
 body {
 	font-family: 'Montserrat', sans-serif;
 	width: 100%;
-	max-width: 980px;
+	
 
 }
 body{
@@ -125,7 +126,7 @@ footer {
 	padding: 40px 0;
 	background-color:#de3535 ;
 	width: 100%;
-	max-width: 980px;
+	
 
 }
 
@@ -136,7 +137,7 @@ footer img{
 main{
 	background-color: #b5eeff;
 	width: 100%;
-	max-width: 980px;
+	
 }
 
 
