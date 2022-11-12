@@ -27,21 +27,34 @@
 			</nav>
 		</div>
 
+		<div>
+			<input id="seletor" type="text" placeholder="Tipo do Bolo" list="Bolo">
+			<datalist id="Bolo">
+			<option value="Todos"></option>
+			<option value="Bolo Massa Branca"></option>
+			<option value="Bolo Massa Chocolate"></option>
+			<option value="Bolo Trufado"></option>
+			</datalist>
+			</input>
+		</div>
+		<input type="submit" value="Procurar" id="botao"></input>
+
+
 		<main>
 			<ul class="produtos">
-				<li>
+				<li id="opcao1">
 					<h2>Bolo Massa Branca</h2>
 					
 					<br class="produto-descricao">Recheios:</br> Creme de Leite ninho com Morango</br>Creme de Leite ninho com Abacaxi </br> Chancelle </br> Doce de Leite </p>
 					<p class="produto-preco">R$ 52,00 Kg</p>
 				</li>
-				<li>
+				<li id="opcao2">
 					<h2>Bolo Massa Chocolate</h2>
 					
 					<p class="produto-descricao">Recheios:</br> Creme de Leite ninho com Morango</br>Creme de Leite ninho com Abacaxi </br> Chancelle </br> Doce de Leite </p>
 					<p class="produto-preco">R$ 56,00 Kg</p>
 				</li>
-				<li>
+				<li id="opcao3">
 					<h2>Bolo Trufado</h2>
 					
 					<p class="produto-descricao">Recheios:</br> Creme de Leite ninho com Morango</br>Creme de Leite ninho com Abacaxi </br> Chancelle </br> Doce de Leite </p>
@@ -55,4 +68,5 @@
 			<p class="copyright">&copy; Copyright Doçe Ciça - 2022 </p>
 		</footer>
 	</body>
+	<script src="./script.js">  </script>
 </html>

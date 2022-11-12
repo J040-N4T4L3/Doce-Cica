@@ -172,6 +172,19 @@ main{
 	
 }
 
+#opcao1 {
+	display: block;
+}
+
+#opcao2 {
+	display: block;
+}
+
+#opcao3 {
+	display: block;
+}
+
+
 .produtos li {
 	
 	text-align: center;
