@@ -182,12 +182,61 @@ main{
 	display: block;
 }
 
+#container1{
+	display: none;
+}
+
+#container2{
+	display: none;
+}
+
+#container3{
+	display: none;
+}
+
+#container4{
+	display:none;
+}
+
+
 #opcao2 {
 	display: block;
 }
 
+#container5{
+	display: none;
+}
+
+#container6{
+	display: none;
+}
+
+#container7{
+	display: none;
+}
+
+#container8{
+	display:none;
+}
+
 #opcao3 {
 	display: block;
+}
+
+#container9{
+	display: none;
+}
+
+#container10{
+	display: none;
+}
+
+#container11{
+	display: none;
+}
+
+#container12{
+	display:none;
 }
 
 
