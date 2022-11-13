@@ -49,21 +49,21 @@ h1.marca{
 
 .menu{
 	background-color: rgb(245, 104, 104);
-	height: 30px;
+	height: 3rem;
 	width: 100%;
-	
+	display: flex;
 	
 	
 }
 
 nav{
 	display: flex;
-	width:25%;
+	text-align: left;
 	justify-content: space-between;
 	margin-left: 3rem;
 	margin-right: 3rem;
 	padding-top: 4px;
-
+	width: 25%;
 	
 }
 
@@ -73,7 +73,9 @@ nav a {
 	font-weight: bold;
 	font-size: 2rem;
 	text-decoration: none;
-
+	transition-duration: 0.4s;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 nav a:hover {
@@ -163,6 +165,23 @@ main{
 }
 
 
+#botao{
+	transition-duration: 0.4s;
+	background-color:rgb(245, 104, 104);
+	font-size: 2rem;
+	border: 0em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+}
+
+
+#botao:hover{
+	color: #fefefe;
+}
+
+
 
 #opcao1 {
 	display: block;
@@ -238,7 +257,7 @@ main{
 	
 }
 
-.produtos li:hover {
+/*.produtos li:hover {
 	
 	border-color: #de3535;
 	background-color: rgb(255, 230, 118);
@@ -253,7 +272,7 @@ main{
 
 .produtos li:hover h2 {
 	font-size: 3rem;
-}
+}*/
 
 .produtos h2 {
 	font-size: 2.45rem;
@@ -291,6 +310,12 @@ main{
 		height: 100%;
 		
 	}
+
+	.menu{
+		height: 6rem;
+		flex-direction: column;
+	}
+
 	nav a{
 		padding-left: 1rem;
 		padding-right: 1rem;
@@ -313,6 +338,11 @@ main{
 	}
 	.titulo-principal {
 		font-size: 4rem;
+	}
+
+	#filtro{
+		text-align: left;
+		order: -1;
 	}
 }
 
