@@ -25,19 +25,24 @@
 				<a href="produtos.html">Cardápio</a>
 				
 			</nav>
+
+			<div id="filtro">
+				<input id="seletor" type="text" placeholder="Tipo do Bolo" list="Bolo">
+				<datalist id="Bolo">
+				<option value="Todos"></option>
+				<option value="Bolo Massa Branca"></option>
+				<option value="Bolo Massa Chocolate"></option>
+				<option value="Bolo Trufado"></option>
+				</datalist>
+				</input>
+				<input type="submit" value="Procurar" id="botao"></input>
+
+
+			</div>
+			
 		</div>
 
-		<div>
-			<input id="seletor" type="text" placeholder="Tipo do Bolo" list="Bolo">
-			<datalist id="Bolo">
-			<option value="Todos"></option>
-			<option value="Bolo Massa Branca"></option>
-			<option value="Bolo Massa Chocolate"></option>
-			<option value="Bolo Trufado"></option>
-			</datalist>
-			</input>
-		</div>
-		<input type="submit" value="Procurar" id="botao"></input>
+		
 
 
 		<main>
